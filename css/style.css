@@ -3,21 +3,39 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+
 }
 
 /*imposto header*/
 header {
-    background-color: white;
-
-    background-size: 300px;
+    background-color: rgb(174, 48, 48);
+    height: 100px;
 }
 
-.container {
-    width: 100%;
-    overflow: hidden;
+
+
+.title {
+   vertical-align: middle;
+   display:inline;
+   line-height: 100px ;
 }
 
-.text {
-    width: center;
+.logo {
+    vertical-align: middle;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.finestra {
+    width: 500px;
+    height: 700px;
+    margin: 30px auto;
+    background-color: blueviolet;
 
 }
+#button1 {
+    width: 300px;
+    margin: auto;
+    border: 20px solid red;
+}
+
